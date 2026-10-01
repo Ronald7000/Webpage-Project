@@ -1,22 +1,13 @@
-/* =========================
-   GENERAL STYLES
-   ========================= */
-
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Comic Sans MS", cursive;
     background-color: #f4f4f6;
     color: #222;
 }
-
-
-/* =========================
-   HEADER
-   ========================= */
 
 header {
     background-color: #20242a;
