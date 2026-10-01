@@ -1,7 +1,3 @@
-/* =========================
-   GENERAL
-   ========================= */
-
 * {
     box-sizing: border-box;
 }
@@ -12,159 +8,79 @@ html {
 
 body {
     margin: 0;
-    background-color: #000000;
-    color: white;
-    font-family: "Comic Sans MS", cursive;
+    background: #000000 !important;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
 }
 
+/* NAVIGATION */
 
-/* =========================
-   HEADER
-   ========================= */
-
-header {
-    background-color: #000000;
-
-    padding: 30px 8%;
-
+nav {
+    background: #080808 !important;
+    padding: 20px 8%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    border-bottom: 1px solid #00ffff;
-
+    justify-content: center;
+    gap: 60px;
+    border-bottom: 2px solid #00ffff;
     box-shadow: 0 0 15px #00ffff;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.logo > span {
-    font-size: 55px;
-    color: #00ffff;
-
-    text-shadow:
-        0 0 5px #00ffff,
-        0 0 15px #00ffff,
-        0 0 30px #00ffff;
-}
-
-.logo h1 {
-    margin: 0;
-
-    font-size: 40px;
-    color: #ffffff;
-
-    text-shadow:
-        0 0 5px #00ffff,
-        0 0 15px #00ffff;
-}
-
-.logo p {
-    margin: 5px 0;
-
-    color: #00ffff;
-    font-size: 16px;
-}
-
-.header-text {
-    color: #00ffff;
-    text-align: center;
-
-    letter-spacing: 5px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-
-    text-shadow:
-        0 0 5px #00ffff,
-        0 0 15px #00ffff;
-}
-
-
-/* =========================
-   NAVIGATION
-   ========================= */
-
-nav {
-    background-color: #050505;
-
-    padding: 18px 8%;
-
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-
-    border-bottom: 2px solid #00ffff;
-
-    box-shadow: 0 0 12px #00ffff;
-}
-
 nav a {
-    color: white;
-
+    color: #ffffff;
     text-decoration: none;
-
-    font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
-
-    transition: 0.3s;
 }
 
 nav a:hover {
     color: #00ffff;
-
-    text-shadow:
-        0 0 5px #00ffff,
-        0 0 15px #00ffff;
+    text-shadow: 0 0 15px #00ffff;
 }
 
 
-/* =========================
-   ABOUT / HERO
-   ========================= */
-
-/* =========================
-   ABOUT ANIME SECTION
-   ========================= */
+/* ABOUT */
 
 .about-section {
+    background: #000000 !important;
+    color: #ffffff !important;
+
     padding: 80px 8%;
 
     display: flex;
-    gap: 60px;
     align-items: center;
+    gap: 60px;
 
-    background-color: #000000;
-
-    border-bottom: 1px solid #00ffff;
-
-    box-shadow: 0 0 20px #00ffff;
+    border-bottom: 2px solid #00ffff;
 }
 
 .about {
     flex: 1;
 }
 
-.about h2 {
-    color: #00ffff;
+.label {
+    color: #00ffff !important;
 
-    font-size: 18px;
-    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
 
     text-shadow:
         0 0 5px #00ffff,
-        0 0 15px #00ffff,
-        0 0 30px #00ffff;
+        0 0 15px #00ffff;
 }
 
-.about p:not(.label) {
-    color: #ffffff;
+.about h2 {
+    color: #ffffff !important;
 
-    font-family: Arial, sans-serif;
+    font-size: 45px;
+
+    text-shadow:
+        0 0 5px #00ffff,
+        0 0 15px #00ffff;
+}
+
+.about p {
+    color: #ffffff !important;
 
     font-size: 18px;
     line-height: 1.8;
@@ -176,35 +92,21 @@ nav a:hover {
     margin-top: 20px;
     padding: 14px 28px;
 
-    background-color: #00ffff;
-    color: #000000;
+    background: #00ffff;
+    color: #000000 !important;
 
     text-decoration: none;
+    font-weight: bold;
 
     border-radius: 8px;
 
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-
-    box-shadow:
-        0 0 8px #00ffff,
-        0 0 20px #00ffff;
-
-    transition: 0.3s;
-}
-
-.button:hover {
-    background-color: #ffffff;
-
     box-shadow:
         0 0 10px #00ffff,
-        0 0 30px #00ffff;
+        0 0 25px #00ffff;
 }
 
 
-/* =========================
-   IMAGE
-   ========================= */
+/* IMAGE */
 
 .anime-image {
     flex: 1;
@@ -212,13 +114,9 @@ nav a:hover {
 
 .anime-image img {
     width: 100%;
-    max-height: 400px;
-
-    object-fit: cover;
-
-    border-radius: 15px;
 
     border: 3px solid #00ffff;
+    border-radius: 15px;
 
     box-shadow:
         0 0 10px #00ffff,
@@ -226,282 +124,159 @@ nav a:hover {
 }
 
 
-/* =========================
-   GENRES
-   ========================= */
+/* GENRES */
 
 .genres-section {
+    background: #000000 !important;
+    color: #ffffff;
+
     padding: 80px 8%;
-
-    background-color: #020202;
-
-    border-bottom: 1px solid #00ffff;
-}
-
-.section-heading {
-    margin-bottom: 40px;
 }
 
 .section-heading h2 {
-    font-size: 42px;
+    color: #00ffff;
 
-    margin: 10px 0;
+    font-size: 40px;
 
     text-shadow:
         0 0 5px #00ffff,
         0 0 15px #00ffff;
 }
 
-.section-heading p:last-child {
-    color: #999999;
-
-    font-family: Arial, sans-serif;
+.section-heading p {
+    color: #aaaaaa;
 }
 
 
-/* =========================
-   FLEXBOX CARDS
-   ========================= */
+/* CARDS */
 
 .cards {
     display: flex;
-
     gap: 20px;
-
-    flex-wrap: wrap;
 }
 
 .card {
-    position: relative;
-
     flex: 1;
 
-    min-width: 200px;
-    min-height: 270px;
-
+    min-height: 250px;
     padding: 25px;
 
-    background-color: #050505;
+    background: #050505 !important;
 
     border: 2px solid #00ffff;
-
     border-radius: 12px;
 
-    box-shadow:
-        0 0 5px #00ffff,
-        inset 0 0 10px rgba(0, 255, 255, 0.1);
-
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-8px);
-
-    box-shadow:
-        0 0 10px #00ffff,
-        0 0 30px #00ffff;
+    box-shadow: 0 0 10px #00ffff;
 }
 
 .number {
     color: #00ffff;
-
-    font-family: Arial, sans-serif;
-    font-size: 20px;
     font-weight: bold;
-
-    text-shadow: 0 0 10px #00ffff;
 }
 
 .icon {
-    position: absolute;
+    float: right;
 
-    top: 20px;
-    right: 20px;
-
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
-    border: 2px solid #00ffff;
-
-    border-radius: 50%;
-
     color: #00ffff;
 
-    font-family: Arial, sans-serif;
-
-    box-shadow:
-        0 0 8px #00ffff;
+    border: 2px solid #00ffff;
+    border-radius: 50%;
 }
 
 .card h3 {
-    margin-top: 55px;
-
-    color: white;
-
-    font-size: 25px;
-
-    text-shadow:
-        0 0 5px #00ffff;
+    color: #ffffff;
 }
 
 .card hr {
     border: none;
-
-    border-top: 2px solid #00ffff;
-
-    width: 60px;
-
-    margin: 15px 0 25px 0;
+    border-top: 1px solid #00ffff;
 }
 
 .card p {
-    color: #b8b8b8;
-
-    font-family: Arial, sans-serif;
-
-    font-size: 14px;
-
-    line-height: 1.6;
+    color: #aaaaaa;
 }
 
 
-/* =========================
-   FAVORITES
-   ========================= */
+/* FAVORITES */
 
 .favorites-section {
-    padding: 80px 8%;
+    background: #000000 !important;
+    color: #ffffff;
 
-    background-color: #000000;
+    padding: 80px 8%;
 }
 
 .favorites-section h2 {
-    font-size: 40px;
+    color: #00ffff;
 
-    margin-top: 10px;
-
-    text-shadow:
-        0 0 5px #00ffff,
-        0 0 15px #00ffff;
+    text-shadow: 0 0 15px #00ffff;
 }
 
 .anime-list {
     display: flex;
-
     gap: 20px;
-
-    flex-wrap: wrap;
 }
 
 .anime-item {
     flex: 1;
 
-    min-width: 200px;
+    padding: 20px;
 
-    padding: 15px;
-
-    background-color: #050505;
+    background: #050505 !important;
 
     border: 2px solid #00ffff;
-
     border-radius: 10px;
 
-    box-shadow:
-        0 0 5px #00ffff;
-
-    transition: 0.3s;
-}
-
-.anime-item:hover {
-    transform: translateY(-5px);
-
-    box-shadow:
-        0 0 10px #00ffff,
-        0 0 25px #00ffff;
+    box-shadow: 0 0 10px #00ffff;
 }
 
 .anime-item img {
     width: 100%;
-    height: 150px;
+    height: 160px;
 
     object-fit: cover;
 
-    border-radius: 6px;
-
-    border: 1px solid #00ffff;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
 }
 
 .anime-item h3 {
     color: #00ffff;
-
-    font-size: 20px;
 }
 
 .anime-item p {
-    color: #999999;
-
-    font-family: Arial, sans-serif;
+    color: #aaaaaa;
 }
 
 
-/* =========================
-   FOOTER
-   ========================= */
+/* FOOTER */
 
 footer {
-    padding: 25px 8%;
-
-    text-align: center;
-
-    background-color: #000000;
+    background: #000000 !important;
 
     color: #00ffff;
 
-    font-family: Arial, sans-serif;
+    padding: 25px;
+
+    text-align: center;
 
     border-top: 2px solid #00ffff;
-
-    box-shadow: 0 0 15px #00ffff;
 }
 
 
-/* =========================
-   MOBILE
-   ========================= */
+/* PHONE */
 
 @media (max-width: 800px) {
 
-    header {
-        flex-direction: column;
-
-        gap: 20px;
-
-        text-align: center;
-    }
-
-    .logo h1 {
-        font-size: 32px;
-    }
-
-    nav {
-        gap: 25px;
-
-        flex-wrap: wrap;
-    }
-
     .about-section {
         flex-direction: column;
-
-        text-align: center;
-    }
-
-    .about h2 {
-        font-size: 38px;
     }
 
     .cards {
@@ -512,31 +287,7 @@ footer {
         flex-direction: column;
     }
 
-    .header-text {
-        display: none;
+    nav {
+        gap: 25px;
     }
-}
-
-html,
-body,
-main,
-.about-section,
-.genres-section,
-.favorites-section {
-    background-color: #000000 !important;
-    color: #ffffff;
-}
-
-.about-section {
-    min-height: 500px;
-}
-
-.about p {
-    color: #ffffff !important;
-}
-
-.about h2,
-.section-heading h2,
-.favorites-section h2 {
-    color: #00ffff !important;
 }
