@@ -1,86 +1,299 @@
-/* Page */
+/* =========================
+   GENERAL STYLES
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f5f7;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f4f4f6;
     color: #222;
 }
 
-/* Header */
+
+/* =========================
+   HEADER
+   ========================= */
+
 header {
-    background-color: #22262b;
+    background-color: #20242a;
     color: white;
-    text-align: center;
-    padding: 30px;
+    padding: 60px 8%;
+}
+
+.label {
+    color: #ff4d6d;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 header h1 {
-    margin-bottom: 10px;
+    font-size: 42px;
+    margin: 10px 0;
 }
 
-/* Navigation */
+.subtitle {
+    color: #c9c9c9;
+    font-style: italic;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
 nav {
-    background-color: #33383e;
-    padding: 15px;
-    text-align: center;
+    background-color: #17191d;
+    padding: 16px 8%;
+
+    display: flex;
+    gap: 35px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    font-family: Arial, sans-serif;
 }
 
-/* Main content */
-main {
-    padding: 30px;
+nav a:hover {
+    color: #ff4d6d;
 }
 
-/* Sections */
-section {
+
+/* =========================
+   ABOUT SECTION
+   ========================= */
+
+.about-section {
+    padding: 60px 8%;
+
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
     background-color: white;
-    padding: 25px;
-    margin-bottom: 30px;
-    border-radius: 10px;
 }
 
-/* Images */
-img {
+.about {
+    flex: 1;
+}
+
+.about h2 {
+    color: #ff4d6d;
+    font-size: 15px;
+}
+
+.about p {
+    line-height: 1.7;
+    color: #555;
+}
+
+.button {
+    display: inline-block;
+
+    margin-top: 15px;
+    padding: 12px 22px;
+
+    background-color: #ff4d6d;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 5px;
+
+    font-family: Arial, sans-serif;
+}
+
+.button:hover {
+    background-color: #d93655;
+}
+
+
+/* =========================
+   IMAGE
+   ========================= */
+
+.anime-image {
+    flex: 1;
+}
+
+.anime-image img {
     width: 100%;
-    max-width: 250px;
-    height: 150px;
-    object-fit: cover;
-    margin: 10px 0;
+    border-radius: 10px;
+
+    border: 5px solid #20242a;
 }
 
-/* Flexbox */
+
+/* =========================
+   GENRES SECTION
+   ========================= */
+
+.genres-section {
+    padding: 60px 8%;
+    background-color: #eceef1;
+}
+
+.section-heading {
+    margin-bottom: 35px;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    margin: 8px 0;
+}
+
+.section-heading p:last-child {
+    color: #777;
+}
+
+
+/* =========================
+   FLEXBOX CARDS
+   ========================= */
+
 .cards {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 18px;
 }
 
-/* Cards */
-article {
-    background-color: #22262b;
-    color: white;
-    padding: 20px;
-    margin: 5px;
+.card {
+    position: relative;
+
     flex: 1;
-    min-width: 180px;
-    border-radius: 8px;
-}
 
-article img {
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
-}
+    min-height: 270px;
+    padding: 25px;
 
-/* Footer */
-footer {
-    background-color: #22262b;
+    background-color: #20242a;
     color: white;
-    text-align: center;
-    padding: 20px;
+
+    border-radius: 8px;
+
+    margin: 5px;
+}
+
+.number {
+    color: #ff4d6d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon {
+    position: absolute;
+
+    top: 18px;
+    right: 18px;
+
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ff4d6d;
+    border-radius: 50%;
+}
+
+.card h3 {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.card hr {
+    border: none;
+    border-top: 1px solid #444;
+
+    margin: 15px 0 35px;
+}
+
+.card p {
+    color: #d5d5d5;
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   FAVORITES SECTION
+   ========================= */
+
+.favorites-section {
+    padding: 60px 8%;
+    background-color: white;
+}
+
+.favorites-section h2 {
+    font-size: 35px;
+}
+
+.anime-list {
+    display: flex;
+    gap: 20px;
+}
+
+.anime-item {
+    flex: 1;
+
+    padding: 25px;
+
+    border: 2px solid #eee;
+    border-radius: 8px;
+
+    background-color: #fafafa;
+}
+
+.anime-item h3 {
+    color: #ff4d6d;
+}
+
+.anime-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #17191d;
+    color: #aaa;
+
+    padding: 22px 8%;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 800px) {
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .anime-list {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
 }
