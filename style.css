@@ -127,55 +127,46 @@ nav a:hover {
    ABOUT / HERO
    ========================= */
 
+/* =========================
+   ABOUT ANIME SECTION
+   ========================= */
+
 .about-section {
     padding: 80px 8%;
 
     display: flex;
     gap: 60px;
-
     align-items: center;
 
     background-color: #000000;
 
     border-bottom: 1px solid #00ffff;
+
+    box-shadow: 0 0 20px #00ffff;
 }
 
 .about {
     flex: 1;
 }
 
-.label {
+.about h2 {
     color: #00ffff;
 
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-
-    letter-spacing: 5px;
+    font-size: 18px;
+    letter-spacing: 3px;
 
     text-shadow:
         0 0 5px #00ffff,
-        0 0 12px #00ffff;
-}
-
-.about h2 {
-    font-size: 48px;
-
-    margin: 15px 0;
-
-    color: white;
-
-    text-shadow:
-        0 0 5px #00ffff,
-        0 0 15px #00ffff;
+        0 0 15px #00ffff,
+        0 0 30px #00ffff;
 }
 
 .about p:not(.label) {
-    color: #d0d0d0;
+    color: #ffffff;
 
     font-family: Arial, sans-serif;
-    font-size: 18px;
 
+    font-size: 18px;
     line-height: 1.8;
 }
 
@@ -183,29 +174,27 @@ nav a:hover {
     display: inline-block;
 
     margin-top: 20px;
+    padding: 14px 28px;
 
-    padding: 13px 28px;
-
-    color: #00ffff;
-
-    border: 2px solid #00ffff;
-    border-radius: 30px;
+    background-color: #00ffff;
+    color: #000000;
 
     text-decoration: none;
+
+    border-radius: 8px;
 
     font-family: Arial, sans-serif;
     font-weight: bold;
 
     box-shadow:
-        0 0 5px #00ffff,
-        inset 0 0 5px #00ffff;
+        0 0 8px #00ffff,
+        0 0 20px #00ffff;
 
     transition: 0.3s;
 }
 
 .button:hover {
-    background-color: #00ffff;
-    color: #000000;
+    background-color: #ffffff;
 
     box-shadow:
         0 0 10px #00ffff,
