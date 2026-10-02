@@ -2,41 +2,55 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: 0;
-    background: #000000 !important;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
 }
 
-/* NAVIGATION */
+/* ANIME WORLD */
+.label {
+    color: #00ffff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-align: center;
+    width: 100%;
+}
 
+/* Top section */
+header {
+    text-align: center;
+}
+
+/* Description text */
+header p {
+    text-align: justify;
+}
+
+/* Navigation box */
 nav {
-    background: #080808 !important;
-    padding: 20px 8%;
     display: flex;
     justify-content: center;
-    gap: 60px;
+    align-items: center;
+    width: 100%;
+    background-color: #080808;
+    border-top: 2px solid #00ffff;
     border-bottom: 2px solid #00ffff;
-    box-shadow: 0 0 15px #00ffff;
 }
 
 nav a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
+    padding: 20px 35px;
+    border-right: 2px solid #00ffff;
 }
 
-nav a:hover {
-    color: #00ffff;
-    text-shadow: 0 0 15px #00ffff;
+nav a:first-child {
+    border-left: 2px solid #00ffff;
 }
-
 
 /* ABOUT */
 
