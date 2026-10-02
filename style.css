@@ -142,8 +142,9 @@ nav a:first-child {
 
 /* GENRES */
 
+
 .genres h2 {
-    text-align: center;
+    text-align: justify;
 }
 
 .genres > p {
@@ -232,6 +233,8 @@ nav a:first-child {
 
 
 /* FAVORITES */
+
+
 
 .favorites h2 {
     text-align: center;
