@@ -255,6 +255,26 @@ nav a:hover {
     color: #aaaaaa;
 }
 
+.anime-item p {
+    color: #aaaaaa;
+}
+
+/* kaning gi connect nato sa see more katong sa Crunchyroll*/
+.see-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #00ffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.see-more:hover {
+    box-shadow: 0 0 15px #00ffff;
+}
+
 
 /* FOOTER */
 
