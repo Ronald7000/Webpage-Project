@@ -53,7 +53,9 @@ nav a:first-child {
 }
 
 /* ABOUT */
-
+.about p {
+    text-align: justify;
+}
 .about-section {
     background: #000000 !important;
     color: #ffffff !important;
@@ -140,6 +142,17 @@ nav a:first-child {
 
 /* GENRES */
 
+.genres h2 {
+    text-align: center;
+}
+
+.genres > p {
+    text-align: center;
+}
+.genre-card p {
+    text-align: justify;
+}
+
 .genres-section {
     background: #000000 !important;
     color: #ffffff;
@@ -220,6 +233,17 @@ nav a:first-child {
 
 /* FAVORITES */
 
+.favorites h2 {
+    text-align: center;
+}
+
+.favorites > p {
+    text-align: center;
+}
+
+.favorites .anime-card p {
+    text-align: justify;
+}
 .favorites-section {
     background: #000000 !important;
     color: #ffffff;
