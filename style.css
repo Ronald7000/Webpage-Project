@@ -188,11 +188,25 @@ nav a:first-child {
 .cards {
     display: flex;
     gap: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cards-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
 }
 
 .card {
-    flex: 1;
+    position: relative;
+    z-index: 1;
 
+    flex: 1;
     min-height: 250px;
     padding: 25px;
 
