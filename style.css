@@ -1,3 +1,4 @@
+/* daghandaghan atong notes ani mawala tag code */
 * {
     box-sizing: border-box;
 }
@@ -17,18 +18,17 @@ body {
     text-align: center;
     width: 100%;
 }
-
-/* Top section */
+/* pa center tanan gawas sa box ah */
 header {
     text-align: center;
 }
 
-/* Description text */
+/* sa description */
 header p {
     text-align: center;
 }
 
-/* Navigation box */
+/* sa navigation e check daw utro */
 nav {
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@ nav a:first-child {
     border-left: 2px solid #00ffff;
 }
 
-/* ABOUT */
+/* katong about */
 .about p {
     text-align: justify;
 }
@@ -122,7 +122,7 @@ nav a:first-child {
 }
 
 
-/* IMAGE */
+/* dli nata mag butang text ah ako ra butang pultahan */
 
 .anime-image {
     flex: 1;
@@ -140,7 +140,7 @@ nav a:first-child {
 }
 
 
-/* GENRES */
+/* genreee */
 
 
 .genres h2 {
@@ -181,7 +181,7 @@ nav a:first-child {
 }
 
 
-/* CARDS */
+/* tinabanga nata ani na part kay gakalibog nako ani */
 
 .cards {
     display: flex;
@@ -238,7 +238,7 @@ nav a:first-child {
 }
 
 
-/* FAVORITES */
+/* favorite ako ra butang ani */
 
 
 
