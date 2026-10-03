@@ -262,7 +262,7 @@ nav a:first-child {
 
 .favorites-section h2 {
     color: #00ffff;
-
+    text-align: center;
     text-shadow: 0 0 15px #00ffff;
 }
 
