@@ -144,7 +144,7 @@ nav a:first-child {
 
 
 .genres h2 {
-    text-align: justify;
+    text-align: center;
 }
 
 .genres > p {
@@ -161,10 +161,14 @@ nav a:first-child {
     padding: 80px 8%;
 }
 
+.section-heading {
+    text-align: center;
+}
+
 .section-heading h2 {
     color: #00ffff;
-
     font-size: 40px;
+    text-align: center;
 
     text-shadow:
         0 0 5px #00ffff,
@@ -173,6 +177,7 @@ nav a:first-child {
 
 .section-heading p {
     color: #aaaaaa;
+    text-align: center;
 }
 
 
@@ -229,6 +234,7 @@ nav a:first-child {
 
 .card p {
     color: #aaaaaa;
+    text-align: justify;
 }
 
 
@@ -294,10 +300,12 @@ nav a:first-child {
 
 .anime-item p {
     color: #aaaaaa;
+    text-align: justify;
 }
 
 .anime-item p {
     color: #aaaaaa;
+    text-align: justify;
 }
 
 /* kaning gi connect nato sa see more katong sa Crunchyroll*/
