@@ -142,7 +142,7 @@ nav a:first-child {
 }
 
 
-/* genreee */
+/* genreee na gyud */
 
 .genres h2 {
     text-align: center;
@@ -159,8 +159,8 @@ nav a:first-child {
 .genres-section {
     background: #000000;
     color: #ffffff;
-
     padding: 80px 8%;
+    border-bottom: 2px solid #00ffff;
 }
 
 .section-heading {
@@ -286,8 +286,6 @@ nav a:first-child {
 
     display: flex;
     flex-direction: column;
-
-    min-height: 390px;
 }
 
 .anime-item img {
